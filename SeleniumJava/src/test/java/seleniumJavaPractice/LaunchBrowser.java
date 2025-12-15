@@ -13,6 +13,8 @@ public class LaunchBrowser {
 		driver.manage().window().maximize();
 		String title = driver.getTitle();
 		System.out.println("Site Title: " + title);
+		
+		driver.close();
 	}
 
 }
