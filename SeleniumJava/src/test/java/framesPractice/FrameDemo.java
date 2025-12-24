@@ -1,7 +1,5 @@
 package framesPractice;
 
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -36,6 +34,7 @@ public class FrameDemo {
 		driver.switchTo().frame(frame3);
 		WebElement text = driver.findElement(By.name("mytext3"));
 		text.sendKeys("Java Practice");
+		
 		//Switch to nested frame in Frame3
 		WebElement iframeElement = driver.findElement(By.tagName("iframe"));
 		driver.switchTo().frame(iframeElement);
@@ -43,9 +42,8 @@ public class FrameDemo {
 		driver.findElement(By.xpath("//span[text()='I am a human']")).click();
 		driver.findElement(By.xpath("//span[text()='Web Testing']")).click();
 		
+		//Switch to Main Frame
 		driver.switchTo().parentFrame();
-		
-		//driver.switchTo().frame(frame3);
 		text.clear();
 		text.sendKeys("Selenium");
 	}
