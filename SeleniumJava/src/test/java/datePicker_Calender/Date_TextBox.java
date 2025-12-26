@@ -40,22 +40,19 @@ public class Date_TextBox {
 				break;
 
 			// Future Date
-			//driver.findElement(By.xpath("//span[text()='Next']")).click();
+			// driver.findElement(By.xpath("//span[text()='Next']")).click();
 
 			// Past Date
-			 driver.findElement(By.xpath("//span[text()='Prev']")).click();
+			driver.findElement(By.xpath("//span[text()='Prev']")).click();
 
 		}
 
 		List<WebElement> dates = driver
 				.findElements(By.xpath("//table[@class='ui-datepicker-calendar']//tbody/tr/td/a"));
-		/*
-		 * int dateSize = dates.size(); System.out.println(dateSize);
-		 */
+		
 		for (WebElement date : dates) {
 			String str = date.getText();
-			if (str.equals(expDate))
-			{
+			if (str.equals(expDate)) {
 				date.click();
 				break;
 			}
