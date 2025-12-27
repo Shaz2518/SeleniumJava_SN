@@ -22,6 +22,7 @@ public class RightClickDemo {
 		Actions rightClick = new Actions(driver);
 		rightClick.contextClick(button).perform();
 		
+		//Click any option on context menu
 		WebElement contextOpt = driver.findElement(By.xpath("//span[text()='Cut']"));
 		contextOpt.click();
 		
