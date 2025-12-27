@@ -23,7 +23,5 @@ public class DragAndDropDemo2 {
 		for (WebElement op : options) {
 			dragDrop.dragAndDrop(op, destination).perform();
 		}
-
 	}
-
 }
