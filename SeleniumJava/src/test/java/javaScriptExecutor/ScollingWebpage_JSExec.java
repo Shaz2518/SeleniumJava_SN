@@ -20,7 +20,7 @@ public class ScollingWebpage_JSExec {
 		//js.executeScript("window.scrollBy(0,1000)", " ");
 		
 		//Case 2 --> Scroll till WebELEMENT
-		WebElement textBox = driver.findElement(By.xpath("//input[@id='comboBox']"));
+		//WebElement textBox = driver.findElement(By.xpath("//input[@id='comboBox']"));
 		//js.executeScript("arguments[0].scrollIntoView()", textBox);
 		
 		//Case 3 --> Scroll to bottom/top of the webpage
