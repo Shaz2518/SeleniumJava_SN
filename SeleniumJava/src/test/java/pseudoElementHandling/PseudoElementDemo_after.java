@@ -1,14 +1,12 @@
 package pseudoElementHandling;
 
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class PseudoElementDemo_before {
+public class PseudoElementDemo_after {
 
 	public static void main(String[] args) {
 
@@ -25,18 +23,17 @@ public class PseudoElementDemo_before {
 
 		String content = js.executeScript(pseudoElement, ele).toString();
 		System.out.println(content);
-		
+
 		String input = content.replaceAll("\"", "");
 		WebElement textBox = driver.findElement(By.id("txt_rating"));
-		
+
 		textBox.sendKeys(input);
 		WebElement btn = driver.findElement(By.id("check_rating"));
 		btn.click();
-		
+
 		String finalValue = driver.findElement(By.id("validate_rating")).getText();
 		System.out.println(finalValue);
-		
-		
+
 		driver.quit();
 
 	}
