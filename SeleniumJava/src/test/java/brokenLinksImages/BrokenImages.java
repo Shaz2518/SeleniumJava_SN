@@ -38,23 +38,20 @@ public class BrokenImages {
 			URI relativeURL = new URI(hrefAttribute);
 			URI absoluteURI = baseURI.resolve(relativeURL);
 			URL finalURL = absoluteURI.toURL();
-			//System.out.println(finalURL);
+			// System.out.println(finalURL);
 
-
-			//Link Validation
+			// Link Validation
 
 			HttpURLConnection con = (HttpURLConnection) finalURL.openConnection();
 			con.setRequestMethod("GET");
 			con.setConnectTimeout(5000);
 			con.connect();
-			if(con.getResponseCode()>=400)
-			{
+			if (con.getResponseCode() >= 400) {
 				String str = con.getResponseCode() + " " + con.getResponseMessage();
 				System.out.println("Broken Image: " + str);
 			}
-			
-			else
-			{
+
+			else {
 				String str = con.getResponseCode() + " " + con.getResponseMessage();
 				System.out.println("Working Image: " + str);
 			}
