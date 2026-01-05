@@ -118,8 +118,8 @@ The course provides in-depth, real-world experience in automating modern web app
 ---
 
 ## 🎓 Certificate of Completion
-- 📜 Udemy Certificate:
-- 👉 [https://www.udemy.com/certificate/UC-d8500276-d3d4-4c68-b5fa-d964217a9fb3/]
+- 📜 Udemy Certificate: https://www.udemy.com/certificate/UC-d8500276-d3d4-4c68-b5fa-d964217a9fb3/
+  
 ---
 
 ## 🔗 LinkedIn:
