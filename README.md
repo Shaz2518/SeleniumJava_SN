@@ -36,6 +36,8 @@ The course provides in-depth, real-world experience in automating modern web app
 - XPath (basic to advanced)
 - Relative Locators (above, below, near)
 
+---
+
 ### 🔸 Web Element Interactions
 - Text fields, buttons, links
 - Checkboxes & radio buttons
