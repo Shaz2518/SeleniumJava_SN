@@ -12,7 +12,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-public class All3BrowserOptions {
+public class DifferentBrowserLaunch {
 
 	public static void main(String[] args) throws URISyntaxException, MalformedURLException {
 
