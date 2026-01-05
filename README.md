@@ -123,7 +123,7 @@ The course provides in-depth, real-world experience in automating modern web app
 ---
 
 ## 🔗 LinkedIn:
-- 👉 https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/
+- 👉 https://www.linkedin.com/in/shaziya-shaikh/
 
 ---
 
